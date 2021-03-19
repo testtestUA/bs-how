@@ -6,7 +6,7 @@
 
 
 .bahisal-how-to-container {
-    padding: 2rem;
+    
     display: flex;
     justify-content: center;
      background: rgba(255, 255, 255, 0.746);
@@ -28,6 +28,12 @@
 //Medias
 
 @media screen and (min-width:900px) {
+
+    .bahisal-how-to-container {
+
+        padding: 2rem;
+
+    }
 
     .bahisal-how-to-mobile {
         display: none;
